@@ -7,15 +7,15 @@ app = Flask(__name__)
 def home():
     # Pass your data to the HTML template
     return render_template('index.html',
-                           name="Afnaan",
-                           bio="Cybersecurity student with a passion for Python and ethical hacking.",
+                           name="Maaz Amaravati",
+                           bio="Computer science student passion in AI/ML and Python Programming.",
                            projects=[
                                {"name": "Quiz Game", "description": "A Python terminal quiz game.",
-                                   "link": "https://github.com/Afnaan037/quiz-game"},
+                                   "link": "https://github.com/Maazamaravati/quiz-game"},
                                {"name": "Caesar Cipher Tool", "description": "Encrypt and decrypt messages using Caesar cipher.",
-                                   "link": "https://github.com/Afnaan037/caesar-cipher"}
+                                   "link": "https://github.com/Maazamaravati/caesar-cipher"}
                            ],
-                           contact={"email": "afnaanalji123@gmail.com", "github": "Afnaan037", "linkedin": "Mohammed Afnaan Alji"})
+                           contact={"email": "maazamaravati@gmail.com", "github": "Maazamaravai", "linkedin": "Maaz amaravati"})
 
 
 if __name__ == '__main__':
